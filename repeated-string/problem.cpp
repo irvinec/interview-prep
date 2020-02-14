@@ -1,6 +1,5 @@
 #include "problem.hpp"
 
-
 long repeatedString(std::string s, long n)
 {
     if (s.empty())

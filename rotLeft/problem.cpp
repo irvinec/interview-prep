@@ -1,7 +1,6 @@
 
 #include "problem.hpp"
 
-// Complete the jumpingOnClouds function below.
 std::vector<int> rotLeft(const std::vector<int>& a, const int d)
 {
     int rot_factor = d % a.size();
