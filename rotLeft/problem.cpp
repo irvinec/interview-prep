@@ -10,11 +10,10 @@ std::vector<int> rotLeft(const std::vector<int>& a, const int d)
     }
 
     std::vector<int> result(a.size());
-    for (int index = rot_factor, to_ind = 0;
-        index < a.size() + rot_factor, to_ind < a.size();
-        index++, to_ind++)
+    for (int index = 0; index < a.size(); index++)
     {
-        result[to_ind] = a[index % a.size()];
+        int from_index = (index + rot_factor) % a.size();
+        result[index] = a[from_index];
     }
 
     return result;
