@@ -41,3 +41,8 @@
 # intellij
 .idea/
 **/.idea/
+
+# C#
+**/bin/
+**/obj/
+*.DotSettings.user
