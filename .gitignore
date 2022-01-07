@@ -37,3 +37,7 @@
 
 # vscode
 .vscode/
+
+# intellij
+.idea/
+**/.idea/
