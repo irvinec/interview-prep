@@ -31,6 +31,9 @@
 *.out
 *.app
 
+# python cache
+*.pyc
+
 # Build dirs
 **/build/
 **/out/
